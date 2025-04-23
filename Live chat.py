@@ -17,7 +17,7 @@ def speak(text):
 
 def aiProcess(command):
 
-    client = genai.Client(api_key="AIzaSyB6q0M_3EIsE3AR8QLjRTYyeQS7GpG1CFM")
+    client = genai.Client(api_key="Your_gemini_Api")
 
     response = client.models.generate_content(
         model="gemini-2.0-flash",
